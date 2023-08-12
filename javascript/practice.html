@@ -6,7 +6,7 @@
     <title>Document</title>
  </head>
  <body>
-    <script>
+    <!-- <script>
         var a = 5;
         var b = 20;
         console.log(a+b);
@@ -24,7 +24,116 @@
             }
         }
      </script>
-    
+
+
+     <script>
+        var a=0;
+        number(0):
+        function number(a){
+            if(a<0){
+                console.log("negative")
+            }else if (a>0){
+                console.log("positive")
+            }else if(a==0){
+                console.log("zero")
+            }else{
+                console.log("no number defined")
+            }
+
+        }
+     </script>  -->
+
+
+     <!-- <script>
+        var cars = ["benz","tesla","suziki","scorpio"];
+        // console.log(cars);
+        for(var i=0;i<=cars.length;i++)
+        console.log(cars[i]);
+     </script> -->
+     <!-- <script>
+        var temp = 29;
+        function stateoftemperature(temp){
+            if(typeof(temp)=="number"){
+             if(temp>=30){
+                return "hot";
+            }else if(temp>=20 && temp < 30){
+                return "warm";
+            }else if (temp<20){
+                return "cool";
+            }else{
+                return "enter correct value";
+            }
+         }  
+        }console.log("the weather is :"+ stateoftemperature(temp));
+     </script> -->
+
+<!-- 
+     <script>
+       var bet=5;
+       factorial(bet)
+       function factorial(bet){
+        var fnvalue=1;
+        if(bet==1){
+            console.log(bet);
+        }else{
+            for(var i=1;i<=bet;i++){
+                fnvalue = fnvalue*i
+            }console.log(fnvalue);
+        }
+       }
+     </script>
+      -->
+
+      <!-- <script>
+        for(var i=1;i<=30;i++){
+            console.log(i)
+            if(i%3==0 && i%5==0){
+                console.log("fizzbuzz")
+            }else if(i%5==0){
+                console.log("buzz")
+            }else if(i%3==0){
+                console.log("fizz")
+            }
+        }
+      </script> -->
+
+      
+     <!-- objects concept  -->
+<!-- 
+      <script>
+        emp = {id : 303,name:"chinna",salary:40000}
+        console.log(emp.id+""+emp.name);
+      </script> -->
+
+      <!-- writing java script using "THIS" keyword -->
+      <!-- <script>
+        function emp(id,name,salary){
+            this.id=id;
+            this.name=name;
+            this.salary=salary;
+        }
+        e=new emp(303,"chinna",30000);
+        document.write(e.id+""+e.name+""+e.salary)
+      </script> -->
+
+      <!-- <script>  
+        function emp(id,name,salary){  
+        this.id=id;  
+        this.name=name;  
+        this.salary=salary; 
+        this.changesalary=changesalary; 
+        }  function changesalary(othersalary){
+            this.salary=othersalary;
+        }
+        e=new emp(103,"Vimal Jaiswal",30000);  
+          
+        document.write(e.id+" "+e.name+" "+e.salary);
+        e.changesalary(45000)
+        document.write ("<br>"+ e.id+" "+e.name+" "+e.salary);
+
+
+        </script>   -->
+
  </body>
  </html>
  
